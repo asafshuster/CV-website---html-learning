@@ -1,0 +1,45 @@
+/******************************* BY HTML TAGS SELECTORS *******************************/
+body {
+  background-color: #EAF4F5;
+  font-style: italic;
+  font-family: cursive;
+  margin: 0;
+}
+hr {
+  width: 5%;
+  border style: none;
+  border-top-style: dotted;
+  border-top-color: #20C659;
+  border-top-width: thick;
+  margin-bottom: 0;
+}
+
+h1 {
+  color: #5CB6B7;
+}
+h3 {
+  color: #5CB6B7;
+  margin-top: 0;
+}
+table {
+  padding-right: 50%;
+}
+
+/******************************* BY CLASS SELECTORS *******************************/
+.links:hover{
+  color: green;
+}
+.intreduction{
+  background-color: #e5fef7;
+  margin: 0;
+}
+.Education{
+  background-color: #3BF4C8;
+  margin: 0;
+  margin-bottom: 10;
+}
+
+/******************************* BY ID'S SELECTORS *******************************/
+#main_img {
+  height: 200px;
+  border-radius: 100%
