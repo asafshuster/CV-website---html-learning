@@ -9,29 +9,39 @@ hr {
   width: 5%;
   border style: none;
   border-top-style: dotted;
-  border-top-color: #20C659;
+  border-top-color: white;
   border-top-width: thick;
+  border-bottom: none;
+  border-right: none;
+  border-left: none;
   margin-bottom: 0;
+  margin-top: 30px;
+  position: absolute;
+  right: 590px;
+  top: 285px;
 }
 
 h1 {
-  color: #5CB6B7;
+  color: #04286E;
+  position: absolute;
+  right: 520px;
+  top: 185px;
 }
 h3 {
-  color: #5CB6B7;
+  color: #04286E;
   margin-top: 0;
 }
-table {
-  padding-right: 50%;
-}
+
 
 /******************************* BY CLASS SELECTORS *******************************/
+
 .links:hover{
   color: green;
 }
 .intreduction{
-  background-color: #e5fef7;
   margin: 0;
+  height: 350px;
+  background-image: url("C:/Users/asafs/OneDrive/Desktop/CV-website---html-learning/HTML personal site/images/cool-background.png");
 }
 .Education{
   background-color: #3BF4C8;
@@ -42,4 +52,15 @@ table {
 /******************************* BY ID'S SELECTORS *******************************/
 #main_img {
   height: 200px;
-  border-radius: 100%
+  border-radius: 100%;
+  position: absolute;
+  right: 520px;
+  top: 10px;
+}
+
+#Alumeni{
+  color: #04286E;
+  position: absolute;
+  right: 530px;
+  top: 250px;
+}
